@@ -1,0 +1,23 @@
+.addComponent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.customleft{
+    width: 80vw;
+}
+.customright{
+    width: 20vw;
+    height: 59vh;
+    margin-left: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.customright img{
+    width: 100%;
+    height: 100%;
+}

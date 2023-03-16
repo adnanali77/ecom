@@ -1,0 +1,74 @@
+.pr{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #FFFFFF;
+    height: 100vh;
+    margin: 0;
+}
+.detailImg{
+    margin: 55px 25px 15px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+.btnd{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.detailbtn{
+    padding: 15px 65px;
+    margin: 10px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btncart{
+    background-color: yellowgreen;
+    border: none;
+    transition: 0.5s;
+}
+.btncart:hover{
+    background-color: rgb(106, 157, 3);
+}
+.btnbuy{
+    background-color: goldenrod;
+    border: none;
+    transition: 0.5s;
+}
+.btnbuy:hover{
+    background-color: rgb(160, 119, 16);
+}
+.detailImg img{
+    padding: 20px 30px;
+    border: 1px solid #f0f0f0;
+    width: 100%;
+}
+.detailText{
+    margin: 55px 25px 15px 0;
+    width: 65vw;
+}
+.pcost{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0 15px 0 0;
+}
+.pmrp{
+    color: gray;
+    margin: 0 15px 0 0;
+}
+.pdis{
+    color: lightgreen;
+}
+.detailText h2,p{
+    margin: 10px 0;
+}
+.dlogo{
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    color: #fff;
+}

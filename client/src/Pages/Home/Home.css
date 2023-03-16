@@ -1,0 +1,9 @@
+.components{
+    padding: 10px 10px;
+    background-color: #f2f2f2;
+}
+.productsSlides{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}

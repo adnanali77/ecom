@@ -1,0 +1,24 @@
+.mainSearch{
+    border: 1px solid lightgray;
+    width: 450px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+.searchItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchItem input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    color: gray;
+    border: none;
+    outline: none;
+}
+.searchIcon{
+    margin:0 10px;
+    color: gray;
+    cursor: pointer;
+}

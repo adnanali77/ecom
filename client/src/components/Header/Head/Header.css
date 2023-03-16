@@ -1,0 +1,19 @@
+.mainHeader{
+    display: flex;
+    min-height: 10vh;
+    background-color: rgb(158, 187, 213);
+    justify-content: space-evenly;
+    padding: 0 15px;
+    align-items: center;
+    color: #fff;
+}
+.logo{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:active{
+    color: rgb(223, 216, 216);
+}

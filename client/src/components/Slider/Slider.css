@@ -1,0 +1,5 @@
+.mainSlider img{
+    width: 100%;
+    /* object-fit: contain; */
+    min-height: 280px;
+}
